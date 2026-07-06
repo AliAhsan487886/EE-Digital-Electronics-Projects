@@ -6,9 +6,10 @@ A collection of custom PCB and prototyping-board projects designed and built by 
 
 ```
 .
-├── 01-ahsan-name-display-pcb/     # Custom LED name-display PCB spelling "AHSAN"
-├── 02-dip-switch-7seg-decoder/    # DIP-switch controlled 7-segment display board
-└── 03-led-dot-matrix-display/     # 8x8 LED dot-matrix display driver board
+├── 01-Altium-PCB-Design/          # Custom LED name-display PCB spelling "AHSAN"
+├── 02-AHSAN-name-display-PCB/     # Custom LED name-display PCB spelling "AHSAN"
+├── 03-DIP-switch-7seg-decoder/    # DIP-switch controlled 7-segment display board
+└── 04-LED-dot-matrix-display/     # 8x8 LED dot-matrix display driver board
 ```
 
 Each subfolder has its own `README.md` with details, images, and (where available) schematics/code.
@@ -17,13 +18,13 @@ Each subfolder has its own `README.md` with details, images, and (where availabl
 
 | Project | Description | Status |
 |---|---|---|
-| [AHSAN Name Display PCB](./01-ahsan-name-display-pcb) | Custom-etched PCB where LED segments are laid out to spell "A.H.S.A.N." | Built & working |
-| [DIP-Switch 7-Segment Decoder](./02-dip-switch-7seg-decoder) | Perfboard prototype using DIP switches + IC to drive a 7-segment display | Prototyped on perfboard |
-| [LED Dot-Matrix Display](./03-led-dot-matrix-display) | 8x8 LED dot-matrix display driven via driver ICs from an external controller | Prototyped on perfboard |
+| [AHSAN Name Display PCB](./PCB_Name) | Custom-etched PCB where LED segments are laid out to spell "A.H.S.A.N." | Built & working |
+| [DIP-Switch 7-Segment Decoder](./PROJECT_01) | Perfboard prototype using DIP switches + IC to drive a 7-segment display | Prototyped on perfboard |
+| [LED Dot-Matrix Display](./PROJECT_02) | 8x8 LED dot-matrix display driven via driver ICs from an external controller | Prototyped on perfboard |
 
 ## 🛠️ Tools Used
 
-- KiCad (PCB layout & routing)
+- Altium
 - Perfboard / stripboard prototyping
 - Soldering, through-hole assembly
 
