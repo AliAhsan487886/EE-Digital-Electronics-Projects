@@ -1,8 +1,7 @@
 # AHSAN Name Display PCB
 
 A custom-designed and etched PCB that lights up to spell out **"A.H.S.A.N."** — five characters, each built from individually addressable LED segments rather than off-the-shelf 7-segment packages.
-
-![Lit PCB spelling AHSAN](./images/PCB.png)
+<img width="619" height="376" alt="PCB_Name" src="https://github.com/user-attachments/assets/8162202a-3e36-4d5d-8814-627aba52742f" />
 
 ## Overview
 
@@ -35,20 +34,10 @@ The routed board layout (front copper) is shown below:
 | IC | *TBD* | 1 | Small black package, near first digit |
 | LEDs | Red, SMD/segment style | Multiple | Form the letter shapes |
 
-## Design Files
+## Altium Design for PCB
 
-Add your KiCad project files (`.kicad_pcb`, `.kicad_sch`, schematic PDF, Gerbers) here, e.g.:
-
-```
-01-ahsan-name-display-pcb/
-├── kicad/
-│   ├── ahsan-display.kicad_pro
-│   ├── ahsan-display.kicad_sch
-│   └── ahsan-display.kicad_pcb
-├── gerbers/
-└── images/
-```
+<img width="877" height="257" alt="Alitium_Design_01" src="https://github.com/user-attachments/assets/733eccbd-d095-4765-bd14-3a5e2e40dba1" />
 
 ## Status
 
-✅ Board etched, populated, and tested — confirmed lighting up as shown in the photo above.
+Board etched, populated, and tested — confirmed lighting up as shown in the photo above.
