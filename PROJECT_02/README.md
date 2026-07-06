@@ -1,8 +1,8 @@
 # LED Dot-Matrix Display Driver
 
-A perfboard-built **8×8 LED dot-matrix display** driven through driver ICs, controlled externally via a wired connection (from a microcontroller / driver board).
+A perfboard-built **8×8 LED dot-matrix display** driven through driver ICs and Controlled by 8 bit DIP Switch.
 
-![LED dot-matrix display lit up](./images/dot-matrix-display.png)
+<img width="768" height="744" alt="PROJECT_Board" src="https://github.com/user-attachments/assets/6c2bea16-8c47-4873-9d73-864e3fbead4e" />
 
 ## Overview
 
@@ -15,7 +15,8 @@ A perfboard-built **8×8 LED dot-matrix display** driven through driver ICs, con
 
 > Note: confirm and fill in the exact IC part numbers, pinout, and the row/column scan scheme (static drive vs multiplexed) once verified — this README currently describes the board from visual inspection.
 
-## Bill of Materials (as identified from the board)
+## Bill of Materials
+
 
 | Component | Value / Part | Notes |
 |---|---|---|
@@ -29,15 +30,10 @@ A perfboard-built **8×8 LED dot-matrix display** driven through driver ICs, con
 
 ## Design Files
 
-Add schematics, control code, or the multiplexing/scan logic here, e.g.:
-
-```
-03-led-dot-matrix-display/
-├── schematic/
-├── firmware/          # if driven by a microcontroller
-└── images/
-```
+[Exp3.pdf](https://github.com/user-attachments/files/29689474/Exp3.pdf)
 
 ## Status
 
-✅ Prototyped on perfboard — confirmed lighting up rows as shown in the photo above.
+Prototyped on perfboard — confirmed lighting up rows as shown in the photo above.
+
+<img width="201" height="154" alt="image" src="https://github.com/user-attachments/assets/a6872312-aa38-408b-aee1-5bc574645392" />
